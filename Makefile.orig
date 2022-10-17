@@ -1,8 +1,7 @@
 CC=gcc
 
 CFLAGS=-std=gnu99
-#LIBRARIES=-lwiringPi -lpthread -lsqlite3
-LIBRARIES=-lwiringPi -lpthread
+LIBRARIES=-lwiringPi -lpthread -lsqlite3
 
 all:  weathermon
 
